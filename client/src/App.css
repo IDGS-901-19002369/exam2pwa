@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(177, 45, 45);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.bazar-image {
+  width: 100%;
+  max-width: 700px; /* Ajusta el tamaño máximo según sea necesario */
+  margin: 20px auto; /* Centra la imagen horizontalmente con un margen superior */
+}
+
+body {
+  background-image: linear-gradient(to right, #00e1ff, #e0f2f1);
+}
+
+.product-list {
+  columns: 1
+}
+.product-list img {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-list p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.product-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  background-color: #ff0008;
+  border-color: #007bff;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
